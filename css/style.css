@@ -1,15 +1,69 @@
-body, html{
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+
+body,  html{
     height:100%;
     margin:0;
     font-size:16px;
-    font-family:"Lato", sans-serif;
+    font-family:"Montserrat", sans-serif;
     font-weight:400;
     line-height:1.8em;
     color:#666;
   }
+  
+  a {
+    color: gray;
+    text-decoration: none;
+  }
+
+  .title-top {
+    font-family: "Montserrat";
+    text-align: center;
+    color: rgb(131, 131, 131);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    letter-spacing: 1px;
+  }
+  
+  h1 {
+    background-image: url(https://media.giphy.com/media/3otO6NFBIAFg2vPZuM/giphy.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 120px;
+    line-height: .75;
+    margin: 10px 0;
+  }
+
+
+
   .title{
-      font-size: .5em;
-      margin-top:-.1em;
+      font-size: .60em;
+      /* margin-top:-8em; */
+      color:rgb(231, 212, 41);
+      text-shadow:
+      .3px .3px 0 rgb(8, 8, 8);
+      margin:0 auto;
+      padding-bottom:8px;
+  }
+  .logos{
+    padding-top:.75em;
+    color:rgb(218, 216, 216);
+    text-shadow:
+    2px 2px 0 rgb(46, 46, 46);
+    font-size: 1.75em;
+    
+  }
+  .project-title{
+    font-size: 3em;
+    padding:20px;
+    color:rgb(105, 105, 105);
   }
   
   .pimg1, .pimg2, .pimg3{
@@ -25,6 +79,25 @@ body, html{
       scroll = normal
     */
   }
+  .pimg3{
+    opacity:.6;
+    
+  }
+  .designq{
+    background-color: rgb(129, 129, 129);
+    text-align:center;
+    padding:25px 40px;
+    font-size:20px;
+    letter-spacing:8px;
+    color:rgb(252, 252, 252);
+    margin: 0;
+    position: absolute;               
+    top: 50%;   
+    transform: translate(0, -50%);
+    opacity: .8;
+  } 
+
+  
   
   .pimg1{
     background-image:url('https://images.pexels.com/photos/378570/pexels-photo-378570.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
@@ -43,7 +116,7 @@ body, html{
   
   .section{
     text-align:center;
-    padding:50px 80px;
+    padding:25px 40px;
   }
   
   .section-light{
@@ -52,9 +125,18 @@ body, html{
   }
   
   .section-dark{
-    background-color:#282e34;
-    color:#ddd;
+    background-color:#f1f1f1;
+    color:rgb(73, 73, 73);
+    padding:50px;
+    position: relative;
   }
+  .section-dark2{
+    background-color:#1b1b1b;
+    color:rgb(209, 209, 209);
+    padding:50px;
+    position: relative;
+  }
+
   
   .ptext{
     position:absolute;
@@ -67,29 +149,293 @@ body, html{
     text-transform:uppercase;
   }
   
-  .ptext .border{
-    background-color:#111;
-    color:#fff;
-    padding:30px;
-    
-  }
+  
   .border-derek{
     background-color:#111;
     color:#fff;
-    padding:35px;
+    padding:20px;
     outline: .5px solid white;
     outline-offset: -10px;
+    width:100%;
+    margin:0 auto;
+    font-size: 1em;
   }
-  
   
   .ptext .border.trans{
     background-color:transparent;
+  }
+  .project-wrapper{
+        display: grid;
+        grid-gap: 15px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding-left:5px;
+        padding-right:5px;
+        margin: 0 auto;
+  }
+  .connect-text{
+    padding:20px;
+    margin-top:-1em;
+  }
+  .me-wrapper{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* padding-left:20px; */
+    /* padding-right:20px; */
+    margin: 0 auto;
+    padding:30px;
+
+  }
+  .me{
+    background-image:url('drock.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    font-size:20px;
+    line-height:100px;
+    text-align:center;
+    margin:0 auto;
+
+  }
+  .hackerhat{
+    background-image:url('hackerhat.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    font-size:20px;
+    line-height:100px;
+    text-align:center;
+    margin:0 auto;
+    
+
+  }
+  .pool{
+    background-image:url('pool.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    font-size:20px;
+    line-height:100px;
+    text-align:center;
+    margin:0 auto;
+    
+
+  }
+  .shoes{
+    background-image:url('shoes.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    font-size:20px;
+    line-height:100px;
+    text-align:center;
+    margin:0 auto;
+    
+
+  }
+  .project1{
+    background-image:url('pic4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    font-size:20px;
+    color:#fff;
+    line-height:100px;
+    text-align:center;
+    transition: all 1s;
+    
+  }
+  .project2{
+    background-image:url('pic2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    font-size:20px;
+    color:#fff;
+    line-height:100px;
+    text-align:center;
+    transition: all 1s;
+    
+  }
+  .project3{
+    background-image:url('pic3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    font-size:20px;
+    color:#fff;
+    line-height:100px;
+    text-align:center;
+    transition: all 1s;
+    
+  }
+  .project4{
+    background-image:url('pic1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    font-size:20px;
+    color:#fff;
+    line-height:100px;
+    text-align:center;
+    transition: all 1s;
+    
+  }
+  .project5{
+    background-image:url('pic5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    font-size:20px;
+    color:#fff;
+    line-height:100px;
+    text-align:center;
+    transition: all 1s;
+    
+  }
+  .project6{
+    background-image:url('pic7.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    font-size:20px;
+    color:#fff;
+    line-height:100px;
+    text-align:center;
+    transition: all 1s;
+    
+  }
+  .project7{
+    background-image:url('pic9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    font-size:20px;
+    color:#fff;
+    line-height:100px;
+    text-align:center;
+    transition: all 1s;
+    
+  }
+  .project8{
+    background-image:url('pic10.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    font-size:20px;
+    color:#fff;
+    line-height:100px;
+    text-align:center;
+    transition: all 1s;
+
+  }
+  .project1:hover, .project2:hover, .project3:hover, 
+  .project4:hover, .project5:hover, .project6:hover, 
+  .project7:hover, .project8:hover 
+  { transform: scale(1.1); 
+    transition: all 1.5s ease;
+    width:160px;
+    height:120px;
+    border-radius:20px;
+    
+  }
+  
+  .connect{
+    display:grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+  }
+  .connect-logo{
+    display:grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: 3em;
+    color:rgb(197, 197, 197);
+    
+
+  }
+  .phone-number{
+    display:none;
+    font-size:.3em;
+    color:white;
+    padding:20px;
+    
+  }
+  
+  .phone{
+    margin:0 auto;
+    color:rgb(124, 123, 123);
+    
+  }
+ 
+  
+  .phone:hover .phone-number{
+    cursor: pointer;
+    color:rgb(230, 230, 230);
+    display:block;
+   
+
+  }
+ 
+  @media(max-width:540px){
+    h1{
+     font-size: 60px;
+    }
+  }
+  
+  @media(max-width:600px){
+    .project-wrapper{
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  @media(max-width:415px){
+    .me-wrapper{
+      grid-template-columns: 1fr 1fr ;
+      padding:10px;
+    }
+  }
+  @media(max-width:375px){
+    .me-wrapper{
+      grid-template-columns: 1fr 1fr ;
+      padding:10px;
+      grid-gap: 20px;
+    }
   }
   
   
   @media(max-width:568px){
     .pimg1, .pimg2, .pimg3{
       background-attachment:scroll;
+    }
+  }
+  @media(max-width:450px){
+    .project-wrapper{
+      grid-template-columns: 1fr 1fr ;
     }
   }
   
