@@ -159,7 +159,6 @@ body,  html{
     outline: .5px solid white;
     outline-offset: -10px;
     width:100%;
-    /* margin:0 auto; */
     font-size: 1em;
   }
   
@@ -452,7 +451,8 @@ body,  html{
   }
   @media(max-width:450px){
     .phone-number{
-      font-size: .23em;
+      font-size: .2em;
+      padding:10px;
     }
   }
   
