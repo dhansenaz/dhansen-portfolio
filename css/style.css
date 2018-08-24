@@ -119,24 +119,28 @@ body,  html{
   .section{
     text-align:center;
     padding:25px 40px;
+    max-width: 700px;
+    margin:0 auto;
   }
   
   .section-light{
-    background-color:#f4f4f4;
+    background-color:#fffefe;
     color:#666;
   }
   
   .section-dark{
-    background-color:#f1f1f1;
+    background-color:#ffffff;
     color:rgb(73, 73, 73);
     padding:50px;
     position: relative;
   }
-  .section-dark2{
-    background-color:#1b1b1b;
+   .section-dark2{
+    background-color:#000000;
     color:rgb(209, 209, 209);
     padding:50px;
     position: relative;
+    text-align:center;
+    padding:25px 40px;
   }
 
   
@@ -254,6 +258,7 @@ body,  html{
     line-height:100px;
     text-align:center;
     transition: all 1s;
+    margin:0 auto;
     
   }
   .project2{
@@ -268,6 +273,8 @@ body,  html{
     line-height:100px;
     text-align:center;
     transition: all 1s;
+    margin:0 auto;
+    
     
   }
   .project3{
@@ -282,6 +289,8 @@ body,  html{
     line-height:100px;
     text-align:center;
     transition: all 1s;
+    margin:0 auto;
+    
     
   }
   .project4{
@@ -296,6 +305,8 @@ body,  html{
     line-height:100px;
     text-align:center;
     transition: all 1s;
+    margin:0 auto;
+    
     
   }
   .project5{
@@ -310,6 +321,8 @@ body,  html{
     line-height:100px;
     text-align:center;
     transition: all 1s;
+    margin:0 auto;
+    
     
   }
   .project6{
@@ -324,6 +337,8 @@ body,  html{
     line-height:100px;
     text-align:center;
     transition: all 1s;
+    margin:0 auto;
+    
     
   }
   .project7{
@@ -338,6 +353,8 @@ body,  html{
     line-height:100px;
     text-align:center;
     transition: all 1s;
+    margin:0 auto;
+    
     
   }
   .project8{
@@ -352,6 +369,8 @@ body,  html{
     line-height:100px;
     text-align:center;
     transition: all 1s;
+    margin:0 auto;
+    
 
   }
   .project1:hover, .project2:hover, .project3:hover, 
