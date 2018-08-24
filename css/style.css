@@ -91,12 +91,33 @@ body,  html{
     padding:25px 40px;
     font-size:20px;
     letter-spacing:8px;
-    color:rgb(252, 252, 252);
-    margin: 0;
+    color:rgb(70, 70, 70);
+    margin: 0 auto;
     position: absolute;               
     top: 50%;   
     transform: translate(0, -50%);
     opacity: .8;
+    box-shadow: 5px 10px 11px 10px rgba(0,0,0, 0.2),
+    5px 12px 13px 10px rgba(0,0,0, 0.17);
+    background-image: linear-gradient(to right, #E99D4E ,#F4EE8C, #A1DFCD);
+  } 
+  .designq2{
+    background-color: rgb(129, 129, 129);
+    text-align:center;
+    padding:25px 40px;
+    font-size:20px;
+    letter-spacing:8px;
+    color:rgb(70, 70, 70);
+    margin: 0 auto;
+    position: absolute;               
+    top: 50%;   
+    transform: translate(0, -50%);
+    opacity: .8;
+    box-shadow: 5px 10px 11px 10px rgba(0,0,0, 0.2),
+    5px 12px 13px 10px rgba(0,0,0, 0.17);
+    background-image: 
+    linear-gradient(to right, #7ECDD7,#BAE9FD, #8E9099
+    );
   } 
 
   
