@@ -44,11 +44,11 @@ body,  html{
 
 
   .title{
-      font-size: .60em;
+      font-size: .70em;
       /* margin-top:-8em; */
-      color:rgb(231, 212, 41);
+      color:rgb(255, 162, 0);
       text-shadow:
-      .3px .3px 0 rgb(8, 8, 8);
+      .1px .1px 0 rgb(22, 22, 22);
       margin:0 auto;
       padding:15px;
   }
