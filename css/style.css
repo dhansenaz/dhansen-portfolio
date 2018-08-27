@@ -416,16 +416,42 @@ body,  html{
       border-radius:20px;
   }
   .jsbutton{
-    border-radius: 1em;
-    border:none;
-    height:50px;
-    margin-top:1.5em;
-    color:white;
-    background-color: grey;
+    border-radius: .5em;
+    border: 1px solid black;;
+    width:100px;
+    margin-top:3em;
+    color:rgb(5, 5, 5);
+    /* background-color: rgb(180, 180, 180); */
+    font-size: .65em;
+    background: white;
 
   }
   .jsbutton:hover{
     background-color: rgb(56, 56, 56);
+    color: white;
+  }
+
+  .responsive{
+    background-image:url('responsive-side-menu.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    font-size:20px;
+    color:#fff;
+    line-height:100px;
+    text-align:center;
+    transition: all 1s;
+    margin:0 auto;
+
+  }
+  .responsive:hover{
+     transform: scale(1.1); 
+      transition: all 1.5s ease;
+      width:160px;
+      height:120px;
+      border-radius:20px;
   }
   .project1:hover, .project2:hover, .project3:hover, 
   .project4:hover, .project5:hover, .project6:hover, 
