@@ -15,7 +15,6 @@ a {
   color: gray;
   text-decoration: none;
 }
-
 .title-top {
   font-family: "Montserrat";
   text-align: center;
@@ -27,7 +26,6 @@ a {
   height: 100vh;
   letter-spacing: 1px;
 }
-
 h1 {
   background-image: url(https://media.giphy.com/media/3otO6NFBIAFg2vPZuM/giphy.gif);
   background-size: cover;
@@ -39,7 +37,6 @@ h1 {
   line-height: 0.75;
   margin: 10px 0;
 }
-
 .title {
   font-size: 0.7em;
   /* margin-top:-8em; */
@@ -61,7 +58,6 @@ h1 {
   color: rgb(105, 105, 105);
   margin: 0 auto;
 }
-
 .pimg1,
 .pimg2,
 .pimg3 {
@@ -71,7 +67,6 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
   /*
       fixed = parallax
       scroll = normal
@@ -186,8 +181,6 @@ h1 {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  /* padding-left:20px; */
-  /* padding-right:20px; */
   margin: 0 auto;
   padding: 30px;
 }
@@ -378,7 +371,6 @@ h1 {
   width: 100px;
   margin-top: 3em;
   color: rgb(5, 5, 5);
-  /* background-color: rgb(180, 180, 180); */
   font-size: 0.65em;
   background: white;
 }
@@ -469,20 +461,25 @@ h1 {
   color: rgb(230, 230, 230);
   display: block;
 }
+@media (max-width: 600px) {
+  .project-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 568px) {
+  .pimg1,
+  .pimg2,
+  .pimg3 {
+    background-attachment: scroll;
+  }
+}
 @media (max-width: 540px) {
   .border-derek,
   .ptext {
     font-size: 1em;
   }
-}
-@media (max-width: 540px) {
   h1 {
     font-size: 60px;
-  }
-}
-@media (max-width: 600px) {
-  .project-wrapper {
-    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 @media (max-width: 415px) {
@@ -498,26 +495,16 @@ h1 {
     grid-gap: 20px;
   }
 }
-@media (max-width: 568px) {
-  .pimg1,
-  .pimg2,
-  .pimg3 {
-    background-attachment: scroll;
-  }
-}
 @media (max-width: 450px) {
   .project-wrapper {
     grid-template-columns: 1fr 1fr;
   }
-}
-@media (max-width: 450px) {
   .logos {
     font-size: 1.5em;
   }
-}
-@media (max-width: 450px) {
   .phone-number {
     font-size: 0.2em;
     padding: 10px;
   }
 }
+
