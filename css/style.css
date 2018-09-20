@@ -420,6 +420,27 @@ h1 {
   height: 120px;
   border-radius: 20px;
 }
+.landing-page {
+  background-image: url("landingpage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  font-size: 20px;
+  color: #fff;
+  line-height: 100px;
+  text-align: center;
+  transition: all 1s;
+  margin: 0 auto;
+}
+.landing:hover {
+  transform: scale(1.1);
+  transition: all 1.5s ease;
+  width: 160px;
+  height: 120px;
+  border-radius: 20px;
+}
 .project1:hover,
 .project2:hover,
 .project3:hover,
