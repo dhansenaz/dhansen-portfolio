@@ -434,7 +434,7 @@ h1 {
   transition: all 1s;
   margin: 0 auto;
 }
-.landing:hover {
+.landing-page:hover {
   transform: scale(1.1);
   transition: all 1.5s ease;
   width: 160px;
