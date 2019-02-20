@@ -74,14 +74,18 @@ h1 {
 .pimg3 {
   opacity: 0.6;
 }
+.text-container {
+  width:800px;
+  height:400px;
+  padding:50px;
+  margin:0 auto;
+}
 .designq {
   background-color: rgb(129, 129, 129);
   text-align: center;
-  padding: 25px 40px;
-  font-size: 20px;
+  padding: 100px 80px;
   letter-spacing: 8px;
   color: rgb(70, 70, 70);
-  margin: 0 auto;
   position: absolute;
   top: 50%;
   transform: translate(0, -50%);
@@ -90,10 +94,16 @@ h1 {
     5px 12px 13px 10px rgba(0, 0, 0, 0.17);
   background-image: linear-gradient(to right, #e99d4e, #f4ee8c, #a1dfcd);
 }
+.designq h3 {
+  font-size: 30px;
+}
+.designq2 h3 {
+  font-size: 30px;
+}
 .designq2 {
   background-color: rgb(129, 129, 129);
   text-align: center;
-  padding: 25px 40px;
+  padding: 100px 80px;
   font-size: 20px;
   letter-spacing: 8px;
   color: rgb(70, 70, 70);
@@ -138,9 +148,9 @@ h1 {
   background-color: #000000;
   color: rgb(209, 209, 209);
   padding: 50px;
+  height:300px;
   position: relative;
   text-align: center;
-  padding: 25px 40px;
 }
 .ptext {
   position: absolute;
@@ -174,7 +184,7 @@ h1 {
 }
 .connect-text {
   padding: 20px;
-  margin-top: -1em;
+  margin-top: .75em;
 }
 .me-wrapper {
   display: grid;
@@ -524,7 +534,7 @@ h1 {
   display: block;
 }
 .videos {
-  
+
 }
 @media (max-width: 600px) {
   .project-wrapper {
