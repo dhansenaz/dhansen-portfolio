@@ -523,6 +523,9 @@ h1 {
   color: rgb(230, 230, 230);
   display: block;
 }
+.videos {
+  
+}
 @media (max-width: 600px) {
   .project-wrapper {
     grid-template-columns: 1fr 1fr 1fr;
