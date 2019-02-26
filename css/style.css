@@ -103,7 +103,7 @@ h1 {
 .designq2 {
   background-color: rgb(129, 129, 129);
   text-align: center;
-  padding: 100px 80px;
+  /* padding: 100px 80px; */
   font-size: 20px;
   letter-spacing: 8px;
   color: rgb(70, 70, 70);
@@ -533,13 +533,13 @@ h1 {
   color: rgb(230, 230, 230);
   display: block;
 }
-.videos {
 
-}
 @media (max-width: 600px) {
   .project-wrapper {
     grid-template-columns: 1fr 1fr 1fr;
   }
+  
+ 
 }
 @media (max-width: 568px) {
   .pimg1,
