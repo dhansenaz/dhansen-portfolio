@@ -112,8 +112,8 @@ h1 {
   top: 50%;
   transform: translate(0, -50%);
   opacity: 0.8;
-  box-shadow: 5px 10px 11px 10px rgba(0, 0, 0, 0.2),
-    5px 12px 13px 10px rgba(0, 0, 0, 0.17);
+  /* box-shadow: 5px 10px 11px 10px rgba(0, 0, 0, 0.2),
+    5px 12px 13px 10px rgba(0, 0, 0, 0.17); */
   background-image: linear-gradient(to right, #7ecdd7, #bae9fd, #8e9099);
 }
 .pimg1 {
