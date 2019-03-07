@@ -538,7 +538,7 @@ h1 {
   .project-wrapper {
     grid-template-columns: 1fr 1fr 1fr;
   }
-  video {
+  iframe {
     width: 300px;
   }
 }
@@ -547,7 +547,7 @@ h1 {
   .project-wrapper {
     grid-template-columns: 1fr 1fr 1fr;
   }
-  video {
+  iframe {
     width: 600px;
   }
 }
@@ -572,7 +572,7 @@ h1 {
     grid-template-columns: 1fr 1fr;
     padding: 10px;
   }
-  video {
+  iframe {
     width: 300px;
   }
 }
@@ -582,7 +582,7 @@ h1 {
     padding: 10px;
     grid-gap: 20px;
   }
-  video {
+  iframe {
     width: 250px;
   }
 }
