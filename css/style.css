@@ -105,7 +105,7 @@ h1 {
   text-align: center;
   /* padding: 100px 80px; */
   font-size: 15px;
-  letter-spacing: 8px;
+  letter-spacing: 3px;
   color: rgb(70, 70, 70);
   margin: 0 auto;
   position: absolute;
@@ -583,7 +583,7 @@ h1 {
     grid-gap: 20px;
   }
   iframe {
-    width: 250px;
+    width: 220px;
   }
 }
 @media (max-width: 450px) {
